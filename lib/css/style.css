@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Baumans&family=DynaPuff:wght@400;500;600&family=Itim&family=Mukta:wght@200;300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sassy+Frass&display=swap');
+
+body {
+    /* font-family: 'Baumans', cursive; */
+    /* font-family: 'DynaPuff', cursive; */
+    font-family: 'Itim', cursive;
+    /* font-family: 'Mukta', sans-serif; */
+    /* font-family: 'Open Sans', sans-serif; */
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-family: 'Sassy Frass', cursive; */
+}
+
+h1 {
+    /* font-family: 'Sassy Frass', cursive; */
+}
+
+header,
+footer {
+    background-color: #44722f;
+}
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 3
+}
+
+header,
+header nav ul li a.nav-link {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+header,
+ul li a.nav-link {
+    color: #fff;
+}
+ul li a.nav-link {
+    font-size: 1.1em;
+}
+header nav ul li a.nav-link:hover,
+ul li a.nav-link:hover {
+    color: #c1e4b2
+}
+header nav ul li a.nav-link.active {
+    background-color: transparent!important;
+    color:#b0f394!important;
+}
+
+section {
+    padding: 80px;
+    height: 100vh;
+}
+
+h2,
+.overline {
+    color: #44722f;
+}
+.overline {
+    border-top: 3px solid #44722f;
+    font-weight: bold;
+    font-size: 0.8em;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    padding-top: .5em;
+    width: 100px;
+}
+h2 {
+    font-weight: bolder;
+}
+
+#clientes {
+    background: linear-gradient(to right, #335523c4, #44722fc4), url('https://cdn.pixabay.com/photo/2018/03/10/12/00/teamwork-3213924_960_720.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 24px;
+    color: #fff;
+    min-height: 380px;
+    width: 100%;
+}
