@@ -31,7 +31,7 @@ header nav ul li a.nav-link {
     font-weight: bold;
 }
 header,
-ul li a.nav-link {
+ul li a.nav-link{
     color: #fff;
 }
 ul li a.nav-link {
@@ -46,9 +46,16 @@ header nav ul li a.nav-link.active {
     color:#b0f394!important;
 }
 
+.carousel-item img {
+    height: 450px;
+    object-fit: cover;
+    -o-object-fit: cover;
+    object-position: top;
+    -o-object-position: top;
+}
+
 section {
-    padding: 80px;
-    height: 100vh;
+    padding: 80px 0;
 }
 
 h2,
@@ -77,4 +84,50 @@ h2 {
     color: #fff;
     min-height: 380px;
     width: 100%;
+}
+
+#sobre .card {
+    border: none;
+    border-radius: 24px;
+    box-shadow: 0px 0px 10px -6px #44722f, 0px 10px 10px -10px #335523c4;
+    padding: 1em;
+}
+#sobre .card i {
+    font-size: 2em;
+    font-weight: bold;
+}
+#sobre .card i,
+h3,
+#sobre .card p {
+    color:#44722f;
+}
+#sobre .card h3 {
+    font-weight: bolder;
+}
+
+#produtos h3 {
+    /* font-family: 'Baumans', cursive; */
+    font-family: 'DynaPuff', cursive;
+    /* font-family: 'Itim', cursive; */
+    /* font-family: 'Mukta', sans-serif; */
+    /* font-family: 'Open Sans', sans-serif; */
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-family: 'Sassy Frass', cursive; */
+}
+#produtos .produto-descricao {
+    font-size: 1.1em;
+    font-weight: 100;
+    font-family: 'Baumans', cursive;
+    color: #44722fbb;
+    padding: 0;
+    margin: 0;
+}
+#produtos span.plus {
+    color: #2d491f!important;
+    font-weight: bolder;
+    font-size: 1.3em;
+}
+
+article h3 {
+    color: #fff;
 }
