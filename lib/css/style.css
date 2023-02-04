@@ -63,6 +63,9 @@ label.error {
 .btn-success:hover {
     background-color: #44722f!important
 }
+.toast-container {
+    z-index: 100;
+}
 
 section {
     padding: 80px 0;
@@ -108,8 +111,7 @@ h2 {
 }
 #sobre .card i,
 h3,
-#sobre .card p,
-.destaque p {
+p {
     color:#44722f;
 }
 #sobre .card h3 {
@@ -133,7 +135,8 @@ h3,
     font-size: 1.3em;
 }
 
-article h3 {
+article h3,
+article p {
     color: #fff;
 }
 
