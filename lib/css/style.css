@@ -10,9 +10,6 @@ body {
     /* font-family: 'Sassy Frass', cursive; */
 }
 
-h1 {
-    /* font-family: 'Sassy Frass', cursive; */
-}
 
 header,
 footer {
@@ -52,6 +49,19 @@ header nav ul li a.nav-link.active {
     -o-object-fit: cover;
     object-position: top;
     -o-object-position: top;
+}
+label.error {
+    background-color: #f8d7da;
+    border-color: #f5c2c7;
+    color: #842029;
+    font-family: 'DynaPuff', cursive;
+    padding: 10px;
+    margin-top: 5px;
+}
+.btn-success,
+.btn.btn-outline-success:hover,
+.btn-success:hover {
+    background-color: #44722f!important
 }
 
 section {
@@ -107,13 +117,7 @@ h3,
 }
 
 #produtos h3 {
-    /* font-family: 'Baumans', cursive; */
     font-family: 'DynaPuff', cursive;
-    /* font-family: 'Itim', cursive; */
-    /* font-family: 'Mukta', sans-serif; */
-    /* font-family: 'Open Sans', sans-serif; */
-    /* font-family: 'Roboto', sans-serif; */
-    /* font-family: 'Sassy Frass', cursive; */
 }
 #produtos .produto-descricao {
     font-size: 1.1em;

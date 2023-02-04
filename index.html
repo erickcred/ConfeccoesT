@@ -356,7 +356,24 @@
                 <h2>Venha nos conhecer</h2>
 
                 <div>
-                    formulário de contato
+                    <form id="formcontato" action="" method="post">
+                        <div class="mb-3">
+                          <label for="nome" class="form-label">Name</label>
+                          <input type="text"  class="form-control" name="nome" id="nome" placeholder="Seu nome completo">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="telefone" class="form-label">Telefone</label>
+                            <input type="text" class="form-control" name="telefone" id="telefone" placeholder="Seu Telefone">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="email" class="form-label">E-mail</label>
+                            <input type="text" class="form-control" name="email" id="email" placeholder="Seu melhor e-mail">
+                        </div>
+
+                        <button type="submit" class="btn btn-success">Enviar</button>
+                    </form>
                 </div>
             </div>
         </section>
@@ -414,6 +431,11 @@
     <script src="https://code.jquery.com/jquery-3.6.3.min.js"
         integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
 
+
+        <script src="lib/js/jquery.mask.min.js"></script>
+    <script src="lib/js/jqueryValidator/jquery.validate.min.js"></script>
+    <script src="lib/js/jqueryValidator/messages_pt_BR.min.js"></script>
+        
     <script src="lib/js/script.js"></script>
 </body>
 </html>
