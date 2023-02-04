@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Baumans&family=DynaPuff:wght@400;500;600&family=Itim&family=Mukta:wght@200;300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sassy+Frass&display=swap');
 
-* {
-    overflow-x: hidden;
-}
+
 body {
     /* font-family: 'Baumans', cursive; */
     /* font-family: 'DynaPuff', cursive; */
@@ -186,10 +184,9 @@ footer .social-media li a img {
     display: none;
     position: fixed;
     bottom: 15px;
-    right: 2px;
+    right: 10px;
     cursor: pointer;
-}
-#upsite i {
+
     color: #2d491f;
     font-size: 3em;
 }
@@ -209,6 +206,10 @@ footer .social-media li a img {
     }
     article#clientes  div.w-50 {
         width: 100%!important;
+    }
+    footer > div.container {
+        flex-direction: column;
+        align-items: center;
     }
 }
 
